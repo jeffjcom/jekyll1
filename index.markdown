@@ -4,6 +4,6 @@
 
 layout: home
 ---
-Welcome to my blog.
+Welcome to my blog. 
 
 Let's see how many free sites we can publish too :-)
