@@ -25,11 +25,7 @@ jobs:
       - name: Install dependencies
         run: bundle install
       - name: Jekyll build
-        run: jekyll build
-      
-      - uses: actions/checkout@v2
-        with:
-          submodules: true
+        run: jekyll build      
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v0.0.1-preview
