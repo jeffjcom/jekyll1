@@ -12,3 +12,5 @@ This site too will update when push to Github.
 
 No custom URL yet.
 
+Here is how to make your [own](https://docs.microsoft.com/en-us/azure/static-web-apps/publish-jekyll)
+
