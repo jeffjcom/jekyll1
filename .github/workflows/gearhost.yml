@@ -26,6 +26,8 @@ jobs:
         run: bundle install
       - name: Jekyll build
         run: jekyll build      
+        run: pwd
+        run: ls _site/ 
 
       - name: GearHost Deploy
         uses: SamKirkland/FTP-Deploy-Action@3.1.1
@@ -33,7 +35,7 @@ jobs:
           ftp-server: ftp://ftp.gear.host/site/wwwroot/
           ftp-username: ${{ secrets.GEAR_USER }} 
           ftp-password: ${{ secrets.GEAR_PW }} 
-          local-dir: jekyll1/_site/
+          local-dir: _site/
           
 
         
